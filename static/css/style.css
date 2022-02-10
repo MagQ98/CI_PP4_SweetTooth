@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Dongle, sans-serif;
+    font-size:x-large;
+}
+
+body {
+    font-family: Dongle, sans-serif;
+    line-height: 1.6;
+}
+
+.bg-nav {
+    background-color: #E6E6FA;
+}
+
+body {
+    background-color: #F9FAFC;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #E6E6FA;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    text-align: center;
+    background-color: pink;
+}
+
+.author {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+    border: none;
+}
+
+.masthead-text {
+    background-color: #445261;
+    color: white;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #445261;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #445261;
+}
+
+.post-link:hover,
+.page-link {
+    color: pink;
+}
+
+.post-title {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: lightgray;
+}
+
+.signup-text {
+    align-content: center;
+}
+
+.btn-signup {
+    background-color: pink;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: pink;
+}
+
+.link {
+    color: pink;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: pink;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #E6E6FA;
+    background: transparent;
+    border: none;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.intro {
+    border: solid 5px pink;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.description {
+    font-size: medium;
+    margin-bottom: -2rem;
+    color:blue;
+}
