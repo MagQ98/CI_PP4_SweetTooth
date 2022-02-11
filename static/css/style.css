@@ -21,6 +21,11 @@ body {
     background-color: #F9FAFC;
 }
 
+a {
+    text-decoration: none;
+    color: grey;
+}
+
 .nav-link {
     font-size: 30px;
 }
@@ -163,4 +168,12 @@ body {
     font-size: medium;
     margin-bottom: -2rem;
     color:blue;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon {
+    color: white;
 }

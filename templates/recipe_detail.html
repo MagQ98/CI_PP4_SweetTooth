@@ -14,7 +14,7 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in recipe.featured_image.url %}
-                <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
+                <img src="https://res.cloudinary.com/magq98/image/upload/v1636573891/pumpkin_vrixst.png" width="100%">
                 {% else %}
                 <img src=" {{ recipe.featured_image.url }}" width="100%">
                 {% endif %}
@@ -30,7 +30,19 @@
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
                 <p class="card-text ">
-                    {{ recipe.content | safe }}
+                    {{ recipe.ingredients | safe }}
+                </p>
+                <p class="card-text ">
+                    {{ recipe.method | safe }}
+                </p>
+                <p class="card-text ">
+                    {{ recipe.prep_time | safe }}
+                </p>
+                <p class="card-text ">
+                    {{ recipe.cook_time | safe }}
+                </p>
+                <p class="card-text ">
+                    {{ recipe.servings | safe }}
                 </p>
                 <div class="row">
 
@@ -106,7 +118,7 @@
 
                 <h3>Leave a comment:</h3>
                 <p>Posting as: {{ user.username }}</p>
-                <form method="post" style="margin-top: 1.3em;">
+                <form method="POST" style="margin-top: 1.3em;">
                     {{ comment_form | crispy }}
                     {% csrf_token %}
                     <button type="submit" class="btn btn-signup btn-lg">Submit</button>

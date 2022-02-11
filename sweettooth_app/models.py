@@ -15,14 +15,14 @@ class Recipe(models.Model):
     featured_image = CloudinaryField('image', default='placeholder')
     ingredients = models.TextField()
     method = models.TextField()
-    prep_time = models.CharField(max_length=10,)
-    cook_time = models.CharField(max_length=10,)
-    servings = models.CharField(max_length=3,)
+    prep_time = models.CharField(max_length=30,)
+    cook_time = models.CharField(max_length=30,)
+    servings = models.CharField(max_length=15,)
     created_on = models.DateTimeField(auto_now_add=True)
     approved = models.BooleanField(default=False)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(
-        User, related_name='recipe_likes', blank=True)
+        User, related_name='recipe_like', blank=True)
 
     class Meta:
         ordering = ["-created_on"]
