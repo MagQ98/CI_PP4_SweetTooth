@@ -1,108 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sweet Tooth
 
-Welcome MagQ98,
+Due to unforeseen circumstances I had to completely restart this project last minute, this website is still very basic and full of minor errors. My sincere apologies for the fact that this is incomplete and is still a work in progress but I decided I wanted to submit something rather than nothing at all.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+User Experience
+======
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Target Audience
+<ul> 
+<li>People looking to expand their recipe library</li>
+<li>Baking enthusiasts looking for inspiration and ideas</li>
+<li>People passionate about baking that would like somewhere to share their thoughts and creations</li>
+</ul>
 
-## Gitpod Reminders
+### User Requirements
+<ul>
+<li>Links and functions that work as expected</li>
+<li>A simple and efficient navigation system, suitable for any age</li>
+<li>Bright and eye-catching presentation</li>
+<li>Good accessibility</li>
+<li>High quality photos</li>
+<li>A trustworthy source of information</li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+#### First-time User 
+<ul>
+<li>I want to register an account and log in or out as I please</li>
+<li>I want to browse and submit recipes</li>
+<li>I want to be able to leave comments on recipes</li>
+<li>I want to use the navigation bar so that I can easily navigate to different pages</li>
+</ul>
 
-A blue button should appear to click: _Make Public_,
+#### Returning User
+<ul>
+<li>I would like to keep track of my favourite recipes</li>
+<li>I would like to see a wider variety of baking recipes</li>
+<li>I would like to be able to interact with the baking community through the website</li>
+<li>I would like to be able to provide feedback about the site and submit any suggestions I might have that I would like to see added to the site</li>
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
+Design
+======
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Structure
+<p>The site is designed and structured in a way that is user friendly, easy to navigate and eye-catching. Upon clicking into the site, the user is greeted with the home page where all of the recipe posts will be gathered.
 
-A blue button should appear to click: _Make Public_,
+### Color
+<p>For the colour scheme a light pink and lavender colour were chosen because they compliment each other in an attractive way</p>
+<p>After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right</p> 
 
-Another blue button should appear to click: _Open Browser_.
+### Typography
+<p>The Dongle font was used for the text throughout this site. The font was found on Googlefonts and it was used because it was easy to read and looks appealing</p>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Wireframes
+<details>
+<summary>Homepage</summary>
+<img src="media/home.JPG" width="100%">
+</details>
+<details>
+<summary>Recipe page</summary>
+<img src="media/recipe.JPG" width="100%">
+</details>
+<details>
+<summary>Sign In page</summary>
+<img src="media/signin.JPG" width="100%">
+</details>
+<details>
+<summary>Sign Up page</summary>
+<img src="media/signup.JPG" width="100%">
+</details>
 
-To log into the Heroku toolbelt CLI:
+Features
+======
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Navigation Bar
+<ul>
+<li>Featured on all webpages</li>
+<li>Aids visitors in accessing information</li>
+<li>Utilizes hyperlinks to navigate visitors</li>
+</ul>
+<img src="media/navbar.JPG" alt="Navigation Bar" style="max-width:100%;">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Home Page
+<ul>
+<li>Displays the main focus of the site which is to showcase recipes and posts from bakers around the community</li>
+<li>Piques the interests of visitors to give them a overall impression of what the site is for</li>
+</ul>
+<img src="media/recipepage.JPG" alt="Home page" style="max-width:100%;">
 
-------
+### Sign In/Out
+<ul>
+<li>Allows user to sign in our out of their accounts</li>
+</ul>
+<img src="media/signinpage.JPG" alt="Sign In" style="max-width:100%;">
+<img src="media/signoutpage.JPG" alt="Sign Out" style="max-width:100%;">
 
-## Release History
+### Register
+<ul>
+<li>Allows people who view the site to create an account which lets them make their own posts and like/comment on others</li>
+</ul>
+<img src="media/signuppage.JPG" alt="Sign Up" style="max-width:100%;">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Footer
+<ul>
+<li>Featured on all pages</li>
+<li>Consists of links to the main social media platforms</li>
+</ul>
+<img src="media/footer.JPG" alt="Footer" style="max-width:100%;">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Future features to implement
+<ul>
+<li>Plans to create a gallery for users to upload pictures of their own creation</li>
+<li>Plans to create a page where all of the recipes uploaded can be found and categorised</li>
+<li>Plans to include a search bar to find indiviudal recipes</li>
+</ul>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Technologies Used
+======
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Languages
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Python</li>
+</ul>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Frameworks & Tools
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<ul>
+<li>Balsamiq</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Gitpod</li>
+<li>Google Fonts</li>
+<li>Django</li>
+<li>PostgreSQL</li>
+<li>Bootstrap v5.0</li>
+<li>Favicon.io</li>
+</ul>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Testing
+======
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Html
+W3C Markup Validation was used to validate the HTML of the website. The validator shows some errors linked to Javascript but when validating just the HTML it passes with no errors.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Css
+W3C Jigsaw CSS Validation was used to validate the CSS of the website. The validator shows some errors linked to Bootstrap v5.0 but when validating just my custom CSS it passes with no errors.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### JavaScript
+JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Deployment
+======
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The website was deployed using Heroku using the following steps:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<p>Use the "pip freeze -> requirements.txt" command in the terminal</p>
+<p>Create a Heroku account</p>
+<p>Click the New button in the upper right corner and select "create new app"</p>
+<p>Choose a unique app name, region and click "Create app"</p>
+<p>Go to the Settings tab, add the heroku/python buildpack</p>
+<p>Go to the "deploy" tab and pick GitHub as a deployment method</p>
+<p>Search for a repository to connect to</p>
+<p>Go to the manual deploy section and click the "Deploy Branch" button</p>
+<p>Wait for the app to build and then click on the "View" link</p>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The live link can be found here - https://sweet-tooth-ci.herokuapp.com/
 
-------
+Credits
+======
 
-## FAQ about the uptime script
+### Content and Media
 
-**Why have you added this script?**
+<p>https://www.bakingmad.com</p>
+<p>https://www.odlums.ie</p>
+<p>https://www.bbcgoodfood.com</p>
+<p>https://www.bbc.co.uk/food</p>
+<p>https://github.com/Code-Institute-Solutions/Django3blog</p>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Acknowledgements
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+While making this project, I heavily relied on the tutorials provided by Code Institute, specifically the Django Blog tutorial
+I would like to thank my mentor and tutor for continuous helpful feedback
